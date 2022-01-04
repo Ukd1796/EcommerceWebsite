@@ -2,6 +2,7 @@ import React from "react"
 import {Container} from "react-bootstrap"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import HomeScreen from "./screens/HomeScreen"
 
 
 const App =()=> {
@@ -11,7 +12,7 @@ const App =()=> {
      <main className="py-3"> 
      {/* this class helps in adding padding at top and bottom */}
      <Container>
-     <h1>Welcome to ShoeStop</h1>
+     <HomeScreen/>
      </Container>
      </main>
     <Footer/>
